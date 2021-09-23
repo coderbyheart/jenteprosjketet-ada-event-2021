@@ -96,15 +96,13 @@ header-includes: |
 
 ![Markus Tacker](https://images.contentful.com/bncv3c2gt878/6CWMgqeZdCmkk6KkIUksgQ/50922090bc6566c6624c12b82a4bf78c/36671282034_427eace68d_o.jpg){width=50%}
 
-
-
 :::
 
 ::: {.column width="50%"}
 
 Markus Tacker
 
-**Senior R&D Engineer**  
+**Senior R&D Engineer**
 
 <small>[Markus.Tacker@NordicSemi.no](mailto:Markus.Tacker@NordicSemi.no)  
 Twitter: [\@coderbyheart](https://twitter.com/coderbyheart)  
