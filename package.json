@@ -32,5 +32,6 @@
     "*.{yml,md,js,json}": [
       "prettier --write --config .prettierrc.js"
     ]
-  }
+  },
+  "dependencies": {}
 }
