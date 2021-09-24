@@ -94,8 +94,6 @@ header-includes: |
 
 ::: {.column width="50%"}
 
-![Markus Tacker](https://pbs.twimg.com/profile_images/1395119880844849160/pkwutl6p_400x400.jpg){width=50%}
-
 **Senior R&D Engineer**
 
 <small>[Markus.Tacker@NordicSemi.no](mailto:Markus.Tacker@NordicSemi.no)  
@@ -110,17 +108,6 @@ Instagram: [\@coderbyheart](https://instagram.com/coderbyheart)
 - Joined Nordic in 2017.
 - Member of <em>Cellular IoT Applications Team</em>.
 - 1st full-time cloud engineer at Nordic.
-
- <small>
-
-Software crafter with 20+ years of experience working as a developer,
-consultant, coach, mentor, and founder. My professional career has been greatly
-influenced by taking an active role in communities, whether as a participant,
-contributor, initiator, or speaker. I live in Trondheim and enjoys plowing
-through deep snow on snowshoes and Scandinavia's beautiful nature in my black
-campervan.
-
- </small>
 
 :::
 
@@ -226,7 +213,9 @@ provide Bluetooth LE connectivity for creative digital education.
 
 ### Mobile app
 
-[![Link to micro:bit apps](./microbitapps.png){width="50%"}](https://bit.ly/3EOnocs)
+[![Link to micro:bit apps](./microbitapps.png){width="40%"}](https://bit.ly/3EOnocs)
+
+`bit.ly/3EOnocs`
 
 ### Projects
 
@@ -274,6 +263,8 @@ Soil moisture
 
 [![Soil moisture](./soilmoisture.png)](https://makecode.microbit.org/projects/soil-moisture)
 
+`bit.ly/3kEw0dO`
+
 :::
 
 ::: {.column width="33%"}
@@ -282,6 +273,8 @@ Name Badge
 
 [![Name Badge](./nametag.png)](https://microbit.org/projects/make-it-code-it/name-badge/)
 
+`bit.ly/3EP492n`
+
 :::
 
 :::{.column width="33%"}
@@ -289,6 +282,8 @@ Name Badge
 Step Counter
 
 [![Step Counter](./stepcounter.png)](https://microbit.org/projects/make-it-code-it/sensitive-step-counter/)
+
+`bit.ly/2XNga7l`
 
 :::
 
