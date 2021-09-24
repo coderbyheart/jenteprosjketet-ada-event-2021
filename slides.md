@@ -88,15 +88,14 @@ header-includes: |
   </style>
 ---
 
-## About me
+## Markus Tacker
 
 :::::::::::::: {.columns}
 
 ::: {.column width="50%"}
 
-![Markus Tacker](https://images.contentful.com/bncv3c2gt878/6CWMgqeZdCmkk6KkIUksgQ/50922090bc6566c6624c12b82a4bf78c/36671282034_427eace68d_o.jpg){width=50%}
+![Markus Tacker](https://pbs.twimg.com/profile_images/1395119880844849160/pkwutl6p_400x400.jpg){width=50%}
 
-Markus Tacker  
 **Senior R&D Engineer**
 
 <small>[Markus.Tacker@NordicSemi.no](mailto:Markus.Tacker@NordicSemi.no)  
@@ -141,11 +140,32 @@ campervan.
 
 ## Thingy:91
 
+![{micro:bit](./thingy-91.jpg){width=50%}
+
 ### Made by Nordic
+
+Uses Nordic's [nRF9160 SiP](https://www.nordicsemi.com/Products/nRF9160) it is
+an easy-to-use battery-operated prototyping platform for cellular IoT using
+LTE-M, NB-IoT and GPS.
+
+<small>[nordicsemi.com/Products/Development-hardware/Nordic-Thingy-91](https://www.nordicsemi.com/Products/Development-hardware/Nordic-Thingy-91)</small>
 
 ### User Interface
 
+- 1 RGB LED
+- 1 button
+- Sound output
+- Sound recording
+- 4+ GPIO pins
+- PC connection through USB
+
 ### Sensors
+
+- temperature
+- humidity
+- air quality and pressure
+- color and light sensor
+- accelerometer
 
 ### Wireless
 
@@ -155,6 +175,11 @@ campervan.
 ### Price
 
 - ~150 USD
+
+### Cellular IoT
+
+![🌩️](./1F329.svg){width=25%} ![↔️](./2194.svg){width=25%}
+![washing machine](./E1CF.svg){width=25%}
 
 ## micro:bit
 
@@ -174,6 +199,7 @@ provide Bluetooth LE connectivity for creative digital education.
 - Sound output
 - Sound recording
 - 3 Pins plus 3V and ground
+- PC connection through USB
 
 ### Sensors
 
@@ -190,29 +216,98 @@ provide Bluetooth LE connectivity for creative digital education.
 
 - ~30 USD
 
-## Projects
+### UWB IoT (BLE)
+
+![🌩️](./1F329.svg){width=15%} ![↔️](./2194.svg){width=15%}
+![📱](./1F4F1.svg){width=15%} ![↔️](./2194.svg){width=15%}
+![washing machine](./E1CF.svg){width=15%}
+
+## Let's try it!
+
+### Mobile app
+
+[![Link to micro:bit apps](./microbitapps.png){width="50%"}](https://bit.ly/3EOnocs)
+
+### Projects
 
 :::::::::::::: {.columns}
 
 ::: {.column width="33%"}
-[Soil moisture](https://makecode.microbit.org/projects/soil-moisture) ::: :::
-{.column width="33%"}
-[Name badge](https://microbit.org/projects/make-it-code-it/name-badge/) ::: :::
-{.column width="33%"}
+
+[Soil moisture](https://makecode.microbit.org/projects/soil-moisture)
+
+![Soil Moisture](./soilmoisture.jpg)
+
+:::
+
+::: {.column width="33%"}
+
+[Name badge](https://microbit.org/projects/make-it-code-it/name-badge/)
+
+![Name badge](./namebadge.gif)
+
+<small>Image source:
+[microbit.org](https://microbit.org/projects/make-it-code-it/name-badge/)</small>
+
+:::
+
+:::{.column width="33%"}
+
 [Step counter](https://microbit.org/projects/make-it-code-it/sensitive-step-counter/)
+
+![Step counter](./stepcounter.jpg)
+
+<small>Image source:
+[microbit.org](https://microbit.org/projects/make-it-code-it/sensitive-step-counter)</small>
+
 :::
 
 ::::::::::::::
+
+### Project (Links)
+
+:::::::::::::: {.columns}
+
+::: {.column width="33%"}
+
+Soil moisture
+
+[![Soil moisture](./soilmoisture.png)](https://makecode.microbit.org/projects/soil-moisture)
+
+:::
+
+::: {.column width="33%"}
+
+Name Badge
+
+[![Name Badge](./nametag.png)](https://microbit.org/projects/make-it-code-it/name-badge/)
+
+:::
+
+:::{.column width="33%"}
+
+Step Counter
+
+[![Step Counter](./stepcounter.png)](https://microbit.org/projects/make-it-code-it/sensitive-step-counter/)
+
+:::
+
+::::::::::::::
+
+## Thank you & happy connecting!
+
+[![{DevZone](./devzone.svg){width=25%}](https://devzone.nordicsemi.com/)  
+[devzone.nordicsemi.com](https://devzone.nordicsemi.com/)
+
+- [Markus.Tacker@NordicSemi.no](mailto:Markus.Tacker@NordicSemi.no)
+- Twitter: [\@coderbyheart](https://twitter.com/coderbyheart)
+- Instagram: [\@coderbyheart](https://instagram.com/coderbyheart)
 
 ## Please return batteries
 
 ... if you are not planning to use them
 
 ![♻️](./267B.svg){width=25%} ![🔋](./1F50B.svg){width=25%}
-
-## Thank you & happy connecting!
-
-[![{DevZone](./devzone.svg){width=25%}](https://devzone.nordicsemi.com/)
 
 <p style="text-align:center;width:100%;opacity:.8"><small>All emojis designed by
 <a href="https://openmoji.org/" target="_blank" rel="noopener noreferrer">OpenMoji</a>
