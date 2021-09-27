@@ -159,6 +159,10 @@ LTE-M, NB-IoT and GPS.
 - Bluetooth (~10 m range)
 - LTE-m / NB-IoT (~10 km range)
 
+### Programming language
+
+- C
+
 ### Price
 
 - ~150 USD
@@ -198,6 +202,12 @@ provide Bluetooth LE connectivity for creative digital education.
 ### Wireless
 
 - Bluetooth (~10 m range)
+
+### Programming language
+
+- Python
+- JavaScript
+- visual block editor
 
 ### Price
 
