@@ -113,6 +113,14 @@ Instagram: [\@coderbyheart](https://instagram.com/coderbyheart)
 
 ::::::::::::::
 
+### Cellular IoT Applications Team
+
+R&D  
+ ↓  
+Applications  
+ ↓  
+Cellular IoT Applications Team
+
 ## What is _cellular_ IoT?
 
 ### connect:anything
@@ -221,12 +229,6 @@ provide Bluetooth LE connectivity for creative digital education.
 
 ## Let's try it!
 
-### Mobile app
-
-[![Link to micro:bit apps](./microbitapps.png){width="40%"}](https://bit.ly/3EOnocs)
-
-`bit.ly/3EOnocs`
-
 ### Projects
 
 :::::::::::::: {.columns}
@@ -262,6 +264,12 @@ provide Bluetooth LE connectivity for creative digital education.
 :::
 
 ::::::::::::::
+
+### Mobile app
+
+[![Link to micro:bit apps](./microbitapps.png){width="40%"}](https://bit.ly/3EOnocs)
+
+`bit.ly/3EOnocs`
 
 ### Project (Links)
 
