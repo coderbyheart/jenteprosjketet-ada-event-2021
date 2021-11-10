@@ -1,16 +1,16 @@
-# Nordic Event: Jenteprosjektet Ada 2021
+# Nordic Event: KID Fagkveld 2021
 
-![Publish](https://github.com/coderbyheart/jenteprosjketet-ada-event-2021/workflows/Publish/badge.svg?branch=saga)
+![Publish](https://github.com/coderbyheart/kid-fagkveld-2021/workflows/Publish/badge.svg?branch=saga)
 
 Slides for the webinar:
 
 - [Markdown](./slides.md)
-- [Interactive](https://coderbyheart.github.io/jenteprosjketet-ada-event-2021/index.html)
+- [Interactive](https://coderbyheart.github.io/kid-fagkveld-2021/index.html)
 
 ## Viewing
 
 An up-to-date version is published to
-[GitHub pages](https://coderbyheart.github.io/jenteprosjketet-ada-event-2021/index.html).
+[GitHub pages](https://coderbyheart.github.io/kid-fagkveld-2021/index.html).
 
 Press `s` to show the speaker notes.
 

@@ -1,5 +1,5 @@
 ---
-title: Jenteprosjektet Ada 2021
+title: KID Fagkveld 2021
 theme: white
 slideNumber: true
 header-includes: |
@@ -40,7 +40,7 @@ header-includes: |
      background-color: #fff;
    }
    .reveal-viewport::before {
-      content: "© Nordic Semiconductor";
+      content: "© Nordic Semiconductor | CC-BY-NC-SA-4.0";
       position: absolute;
       top: 0; 
       left: 0;
@@ -77,7 +77,7 @@ header-includes: |
       font-size: 32px;
     }
     #title-slide:after {
-      content: "September 2021";
+      content: "November 2021";
       font-size: 22px;
       color: white;
       font-style: italic;
@@ -88,38 +88,36 @@ header-includes: |
   </style>
 ---
 
-## Markus Tacker
+## About me
 
 :::::::::::::: {.columns}
 
-::: {.column width="50%"}
+::: {.column}
+
+![Markus Tacker](./markus.jpg){width=35%}
+
+Markus Tacker
 
 **Senior R&D Engineer**
 
 <small>[Markus.Tacker@NordicSemi.no](mailto:Markus.Tacker@NordicSemi.no)  
 Twitter: [\@coderbyheart](https://twitter.com/coderbyheart)  
-Instagram: [\@coderbyheart](https://instagram.com/coderbyheart)  
-[coderbyheart.com](https://coderbyheart.com/)</small>
+[coderbyheart.com](https://coderbyheart.com)</small>
 
 :::
 
-::: {.column width="50%"}
+::: {.column}
 
-- Joined Nordic in 2017.
-- Member of <em>Cellular IoT Applications Team</em>.
-- 1st full-time cloud engineer at Nordic.
+- 1980: Born in Germany (Xennial)
+- 1998: first business building websites
+- 2003: Mediengestalter für Digital- und Printmedien, Fachrichtung
+  Medienoperating nonprint
+- 2012: B.Sc. Computer Science (Univ. Wiesbaden)
+- 2017+: in Trondheim, at [Nordic Semiconductor](https://www.nordicsemi.com/)
 
 :::
 
 ::::::::::::::
-
-### Cellular IoT Applications Team
-
-R&D  
- ↓  
-Applications  
- ↓  
-Cellular IoT Applications Team
 
 ## What is _cellular_ IoT?
 
@@ -167,10 +165,6 @@ LTE-M, NB-IoT and GPS.
 - Bluetooth (~10 m range)
 - LTE-m / NB-IoT (~10 km range)
 
-### Programming language
-
-- C
-
 ### Price
 
 - ~150 USD
@@ -211,12 +205,6 @@ provide Bluetooth LE connectivity for creative digital education.
 
 - Bluetooth (~10 m range)
 
-### Programming language
-
-- Python
-- JavaScript
-- visual block editor
-
 ### Price
 
 - ~30 USD
@@ -228,6 +216,8 @@ provide Bluetooth LE connectivity for creative digital education.
 ![washing machine](./E1CF.svg){width=15%}
 
 ## Let's try it!
+
+[makecode.microbit.org](https://makecode.microbit.org/)
 
 ### Projects
 
@@ -265,12 +255,6 @@ provide Bluetooth LE connectivity for creative digital education.
 
 ::::::::::::::
 
-### Mobile app
-
-[![Link to micro:bit apps](./microbitapps.png){width="40%"}](https://bit.ly/3EOnocs)
-
-`bit.ly/3EOnocs`
-
 ### Project (Links)
 
 :::::::::::::: {.columns}
@@ -279,9 +263,7 @@ provide Bluetooth LE connectivity for creative digital education.
 
 Soil moisture
 
-[![Soil moisture](./soilmoisture.png)](https://makecode.microbit.org/projects/soil-moisture)
-
-`bit.ly/3kEw0dO`
+[`bit.ly/3kEw0dO`](https://makecode.microbit.org/projects/soil-moisture)
 
 :::
 
@@ -289,9 +271,7 @@ Soil moisture
 
 Name Badge
 
-[![Name Badge](./nametag.png)](https://microbit.org/projects/make-it-code-it/name-badge/)
-
-`bit.ly/3EP492n`
+[`bit.ly/3EP492n`](https://microbit.org/projects/make-it-code-it/name-badge/)
 
 :::
 
@@ -299,13 +279,17 @@ Name Badge
 
 Step Counter
 
-[![Step Counter](./stepcounter.png)](https://microbit.org/projects/make-it-code-it/sensitive-step-counter/)
-
-`bit.ly/2XNga7l`
+[`bit.ly/2XNga7l`](https://microbit.org/projects/make-it-code-it/sensitive-step-counter/)
 
 :::
 
 ::::::::::::::
+
+### Level 200
+
+Connect two micro:bits
+
+[`bit.ly/3wyF8F0`](https://learn.adafruit.com/micro-bit-radio-controlled-puppet/code-the-two-micro-bits)
 
 ## Thank you & happy connecting!
 

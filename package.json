@@ -1,26 +1,25 @@
 {
-  "name": "@coderbyheart/jenteprosjketet-ada-event-2021",
+  "name": "@coderbyheart/kid-fagkveld-2021",
   "version": "0.0.0-development",
-  "description": "Nordic Event: Jenteprosjektet Ada 2021",
-  "main": "index.js",
+  "description": "Nordic Event: KID Fagkveld 2021",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx live-server --port=8000 --no-browser ./public",
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "postpublish": "pinst --enable",
+    "watch": "./.devcontainer/wa make build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coderbyheart/jenteprosjketet-ada-event-2021.git"
+    "url": "git+https://github.com/coderbyheart/kid-fagkveld-2021.git"
   },
   "keywords": [],
   "author": "Markus Tacker <Markus.Tacker@NordicSemi.no>",
   "license": "CC-BY-NC-SA-4.0",
   "bugs": {
-    "url": "https://github.com/coderbyheart/jenteprosjketet-ada-event-2021/issues"
+    "url": "https://github.com/coderbyheart/kid-fagkveld-2021/issues"
   },
-  "homepage": "https://github.com/coderbyheart/jenteprosjketet-ada-event-2021#readme",
+  "homepage": "https://github.com/coderbyheart/kid-fagkveld-2021#readme",
   "devDependencies": {
     "@nordicsemiconductor/asset-tracker-cloud-code-style": "9.1.0",
     "husky": "7.0.2",
