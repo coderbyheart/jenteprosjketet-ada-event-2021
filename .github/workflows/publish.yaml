@@ -33,8 +33,9 @@ jobs:
           git config --global user.email "actions@example.com"
           git config --global user.name "GitHub Actions"
           cd public
+          touch .nojekyll
           git init
-          git add ./*
+          git add -A
           git commit -m '📦 publish latest export'
           git remote add origin https://github.com/${GITHUB_REPOSITORY}.git
           git push -f origin HEAD:gh-pages
