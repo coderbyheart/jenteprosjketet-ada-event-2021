@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Nordic Dagen</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/white.css" id="theme">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+   .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+      font-weight: 300;
+      text-transform: none;
+      font-family: var(--heading-font);
+      color: #00a9ce;
+   } 
+   .reveal {
+        font-size: var(--main-font-size);
+        font-family: var(--main-font); 
+        font-weight: 400;
+        font-size: 32px;
+        margin-top: 42px;
+        height: calc(100% - 42px);
+   }
+   .reveal strong {
+        font-weight: 500;
+   }
+   .reveal a {
+      color: #00a9ce;
+   }
+   .reveal ul {
+     list-style-type: square;
+     list-style-color: #00a9ce;
+   }
+   .reveal li::marker {
+     color: #00a9ce;
+   }
+   :root {
+        --main-font: 'Work Sans', sans-serif;
+       --heading-font: 'Work Sans', sans-serif;
+   }
+   .reveal-viewport {
+     background-color: #fff;
+   }
+   .reveal-viewport::before {
+      content: "© Nordic Semiconductor | CC-BY-NC-SA-4.0";
+      position: absolute;
+      top: 0; 
+      left: 0;
+      width: 100%; 
+      height: 42px;
+      background-color: #00a9ce;
+      color: white;
+      font-family: var(--main-font);
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 42px;
+      padding-left: 10vw;
+   }
+   #about-me img {
+      border-radius: 100%;
+    }
+    .slide-background:first-child .slide-background-content {
+      background-image: url('./titlebg.png');
+      
+    }
+    #title-slide h1 {
+      color: white;
+      font-weight: 500;
+      font-size: 60px;
+    }
+    #title-slide h1:after {
+      content: "micro:bit workshop";
+      display: block;
+      color: #222;
+      background-color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-weight: 300;
+      font-size: 32px;
+    }
+    #title-slide:after {
+      content: "March 2022";
+      font-size: 22px;
+      color: white;
+      font-style: italic;
+    }
+    figcaption {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Nordic Dagen</h1>
+</section>
+
+<section id="about-me" class="title-slide slide level2">
+<h2>About me</h2>
+<div class="columns">
+<div class="column">
+<figure>
+<img data-src="./markus.jpg" style="width:35.0%" alt="Markus Tacker" /><figcaption aria-hidden="true">Markus Tacker</figcaption>
+</figure>
+<p>Markus Tacker</p>
+<p><strong>Senior R&amp;D Engineer</strong></p>
+<p><small><a href="mailto:Markus.Tacker@NordicSemi.no">Markus.Tacker@NordicSemi.no</a><br />
+Twitter: <a href="https://twitter.com/coderbyheart">@coderbyheart</a><br />
+<a href="https://coderbyheart.com">coderbyheart.com</a></small></p>
+</div><div class="column">
+<ul>
+<li>1980: Born in Germany (Xennial)</li>
+<li>1998: first business building websites</li>
+<li>2003: Mediengestalter für Digital- und Printmedien, Fachrichtung Medienoperating nonprint</li>
+<li>2012: B.Sc. Computer Science (Univ. Wiesbaden)</li>
+<li>2017+: in Trondheim, at <a href="https://www.nordicsemi.com/">Nordic Semiconductor</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<section id="what-is-cellular-iot" class="title-slide slide level2">
+<h2>What is <em>cellular</em> IoT?</h2>
+
+</section>
+<section id="connectanything" class="slide level3">
+<h3>connect:anything</h3>
+<p><img data-src="./E0A1.svg" style="width:25.0%" alt="connect" /> <img data-src="./E1CF.svg" style="width:25.0%" alt="washing machine" /></p>
+<p><small>(our slogan)</small></p>
+</section>
+<section id="usage-of-cellular-iot" class="slide level3">
+<h3>Usage of cellular IoT</h3>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GFqP9yHbayY?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</section></section>
+<section>
+<section id="thingy91" class="title-slide slide level2">
+<h2>Thingy:91</h2>
+<figure>
+<img data-src="./thingy-91.jpg" style="width:50.0%" alt="{micro:bit" /><figcaption aria-hidden="true">{micro:bit</figcaption>
+</figure>
+</section>
+<section id="made-by-nordic" class="slide level3">
+<h3>Made by Nordic</h3>
+<p>Uses Nordic’s <a href="https://www.nordicsemi.com/Products/nRF9160">nRF9160 SiP</a> it is an easy-to-use battery-operated prototyping platform for cellular IoT using LTE-M, NB-IoT and GPS.</p>
+<p><small><a href="https://www.nordicsemi.com/Products/Development-hardware/Nordic-Thingy-91">nordicsemi.com/Products/Development-hardware/Nordic-Thingy-91</a></small></p>
+</section>
+<section id="user-interface" class="slide level3">
+<h3>User Interface</h3>
+<ul>
+<li>1 RGB LED</li>
+<li>1 button</li>
+<li>Sound output</li>
+<li>Sound recording</li>
+<li>4+ GPIO pins</li>
+<li>PC connection through USB</li>
+</ul>
+</section>
+<section id="sensors" class="slide level3">
+<h3>Sensors</h3>
+<ul>
+<li>temperature</li>
+<li>humidity</li>
+<li>air quality and pressure</li>
+<li>color and light sensor</li>
+<li>accelerometer</li>
+</ul>
+</section>
+<section id="wireless" class="slide level3">
+<h3>Wireless</h3>
+<ul>
+<li>Bluetooth (~10 m range)</li>
+<li>LTE-m / NB-IoT (~10 km range)</li>
+</ul>
+</section>
+<section id="price" class="slide level3">
+<h3>Price</h3>
+<ul>
+<li>~150 USD</li>
+</ul>
+</section>
+<section id="iotcreators.com1000-devkits" class="slide level3">
+<h3>iotcreators.com/1000-devkits</h3>
+<p><a href="https://iotcreators.com/1000-devkits/"><img data-src="./1000-free-devkits.gif" alt="1,000 free Thingy:91s" /></a></p>
+</section>
+<section id="cellular-iot" class="slide level3">
+<h3>Cellular IoT</h3>
+<p><img data-src="./1F329.svg" style="width:25.0%" alt="🌩️" /> <img data-src="./2194.svg" style="width:25.0%" alt="↔️" /> <img data-src="./E1CF.svg" style="width:25.0%" alt="washing machine" /></p>
+</section></section>
+<section>
+<section id="microbit" class="title-slide slide level2">
+<h2>micro:bit</h2>
+<figure>
+<img data-src="./microbit.jpg" style="width:50.0%" alt="{micro:bit" /><figcaption aria-hidden="true">{micro:bit</figcaption>
+</figure>
+</section>
+<section id="powered-by-nordic" class="slide level3">
+<h3>Powered by Nordic</h3>
+<p>micro:bit employs Nordic’s <strong>nRF52</strong>833 SoC to support complex applications and provide Bluetooth LE connectivity for creative digital education.</p>
+<p><a href="https://microbit.org/">microbit.org</a></p>
+</section>
+<section id="user-interface-1" class="slide level3">
+<h3>User Interface</h3>
+<ul>
+<li>5x5 red LEDs</li>
+<li>2 buttons</li>
+<li>Sound output</li>
+<li>Sound recording</li>
+<li>3 Pins plus 3V and ground</li>
+<li>PC connection through USB</li>
+</ul>
+</section>
+<section id="sensors-1" class="slide level3">
+<h3>Sensors</h3>
+<ul>
+<li>movement</li>
+<li>light</li>
+<li>temperature</li>
+<li>magnetic fields</li>
+</ul>
+</section>
+<section id="wireless-1" class="slide level3">
+<h3>Wireless</h3>
+<ul>
+<li>Bluetooth (~10 m range)</li>
+</ul>
+</section>
+<section id="price-1" class="slide level3">
+<h3>Price</h3>
+<ul>
+<li>~30 USD</li>
+</ul>
+</section>
+<section id="uwb-iot-ble" class="slide level3">
+<h3>UWB IoT (BLE)</h3>
+<p><img data-src="./1F329.svg" style="width:15.0%" alt="🌩️" /> <img data-src="./2194.svg" style="width:15.0%" alt="↔️" /> <img data-src="./1F4F1.svg" style="width:15.0%" alt="📱" /> <img data-src="./2194.svg" style="width:15.0%" alt="↔️" /> <img data-src="./E1CF.svg" style="width:15.0%" alt="washing machine" /></p>
+</section></section>
+<section>
+<section id="lets-try-it" class="title-slide slide level2">
+<h2>Let’s try it!</h2>
+<p><a href="https://makecode.microbit.org/">makecode.microbit.org</a></p>
+</section>
+<section id="projects" class="slide level3">
+<h3>Projects</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><a href="https://microbit.org/projects/make-it-code-it/name-badge/">Name badge</a></p>
+<figure>
+<img data-src="./namebadge.gif" style="width:50.0%" alt="Name badge" /><figcaption aria-hidden="true">Name badge</figcaption>
+</figure>
+<p><small>Image source: <a href="https://microbit.org/projects/make-it-code-it/name-badge/">microbit.org</a></small></p>
+<p><a href="https://microbit.org/projects/make-it-code-it/name-badge/"><code>bit.ly/3EP492n</code></a></p>
+</div><div class="column" style="width:50%;">
+<p><a href="https://microbit.org/projects/make-it-code-it/sensitive-step-counter/">Step counter</a></p>
+<figure>
+<img data-src="./stepcounter.jpg" style="width:55.0%" alt="Step counter" /><figcaption aria-hidden="true">Step counter</figcaption>
+</figure>
+<p><small>Image source: <a href="https://microbit.org/projects/make-it-code-it/sensitive-step-counter">microbit.org</a></small></p>
+<p><a href="https://microbit.org/projects/make-it-code-it/sensitive-step-counter/"><code>bit.ly/2XNga7l</code></a></p>
+</div>
+</div>
+</section>
+<section id="connect-three-microbits" class="slide level3">
+<h3>Connect three microbits</h3>
+<figure>
+<img data-src="./peoplecounter.png" style="width:50.0%" alt="People Counter" /><figcaption aria-hidden="true">People Counter</figcaption>
+</figure>
+<p>Build a venue people counter.</p>
+</section></section>
+<section id="thank-you-happy-connecting" class="title-slide slide level2">
+<h2>Thank you &amp; happy connecting!</h2>
+<p><a href="https://devzone.nordicsemi.com/"><img data-src="./devzone.svg" style="width:25.0%" alt="{DevZone" /></a><br />
+<a href="https://devzone.nordicsemi.com/">devzone.nordicsemi.com</a></p>
+<ul>
+<li><a href="mailto:Markus.Tacker@NordicSemi.no">Markus.Tacker@NordicSemi.no</a></li>
+<li>Twitter: <a href="https://twitter.com/coderbyheart">@coderbyheart</a></li>
+<li>Instagram: <a href="https://instagram.com/coderbyheart">@coderbyheart</a></li>
+</ul>
+</section>
+
+<section id="please-return-batteries" class="title-slide slide level2">
+<h2>Please return batteries</h2>
+<p>… if you are not planning to use them</p>
+<p><img data-src="./267B.svg" style="width:25.0%" alt="♻️" /> <img data-src="./1F50B.svg" style="width:25.0%" alt="🔋" /></p>
+<p style="text-align:center;width:100%;opacity:.8">
+<small>All emojis designed by <a href="https://openmoji.org/" target="_blank" rel="noopener noreferrer">OpenMoji</a> – the open-source emoji and icon project. License: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></small>
+</p>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  // reveal.js plugins
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
