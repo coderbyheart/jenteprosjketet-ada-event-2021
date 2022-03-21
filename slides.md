@@ -1,5 +1,5 @@
 ---
-title: KID Fagkveld 2021
+title: Nordic Dagen
 theme: white
 slideNumber: true
 header-includes: |
@@ -54,7 +54,7 @@ header-includes: |
       line-height: 42px;
       padding-left: 10vw;
    }
-   #speakers img {
+   #about-me img {
       border-radius: 100%;
     }
     .slide-background:first-child .slide-background-content {
@@ -77,7 +77,7 @@ header-includes: |
       font-size: 32px;
     }
     #title-slide:after {
-      content: "November 2021";
+      content: "March 2022";
       font-size: 22px;
       color: white;
       font-style: italic;
@@ -169,6 +169,10 @@ LTE-M, NB-IoT and GPS.
 
 - ~150 USD
 
+### iotcreators.com/1000-devkits
+
+[![1,000 free Thingy:91s](./1000-free-devkits.gif)](https://iotcreators.com/1000-devkits/)
+
 ### Cellular IoT
 
 ![🌩️](./1F329.svg){width=25%} ![↔️](./2194.svg){width=25%}
@@ -223,61 +227,27 @@ provide Bluetooth LE connectivity for creative digital education.
 
 :::::::::::::: {.columns}
 
-::: {.column width="33%"}
-
-[Soil moisture](https://makecode.microbit.org/projects/soil-moisture)
-
-![Soil Moisture](./soilmoisture.jpg)
-
-:::
-
-::: {.column width="33%"}
+::: {.column width="50%"}
 
 [Name badge](https://microbit.org/projects/make-it-code-it/name-badge/)
 
-![Name badge](./namebadge.gif)
+![Name badge](./namebadge.gif){width="50%"}
 
 <small>Image source:
 [microbit.org](https://microbit.org/projects/make-it-code-it/name-badge/)</small>
-
-:::
-
-:::{.column width="33%"}
-
-[Step counter](https://microbit.org/projects/make-it-code-it/sensitive-step-counter/)
-
-![Step counter](./stepcounter.jpg)
-
-<small>Image source:
-[microbit.org](https://microbit.org/projects/make-it-code-it/sensitive-step-counter)</small>
-
-:::
-
-::::::::::::::
-
-### Project (Links)
-
-:::::::::::::: {.columns}
-
-::: {.column width="33%"}
-
-Soil moisture
-
-[`bit.ly/3kEw0dO`](https://makecode.microbit.org/projects/soil-moisture)
-
-:::
-
-::: {.column width="33%"}
-
-Name Badge
 
 [`bit.ly/3EP492n`](https://microbit.org/projects/make-it-code-it/name-badge/)
 
 :::
 
-:::{.column width="33%"}
+:::{.column width="50%"}
 
-Step Counter
+[Step counter](https://microbit.org/projects/make-it-code-it/sensitive-step-counter/)
+
+![Step counter](./stepcounter.jpg){width="55%"}
+
+<small>Image source:
+[microbit.org](https://microbit.org/projects/make-it-code-it/sensitive-step-counter)</small>
 
 [`bit.ly/2XNga7l`](https://microbit.org/projects/make-it-code-it/sensitive-step-counter/)
 
@@ -285,11 +255,11 @@ Step Counter
 
 ::::::::::::::
 
-### Level 200
+### Connect three microbits
 
-Connect two micro:bits
+![People Counter](./peoplecounter.png){width="50%"}
 
-[`bit.ly/3wyF8F0`](https://learn.adafruit.com/micro-bit-radio-controlled-puppet/code-the-two-micro-bits)
+Build a venue people counter.
 
 ## Thank you & happy connecting!
 

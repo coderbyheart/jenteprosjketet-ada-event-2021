@@ -1,5 +1,5 @@
 {
-  "name": "@coderbyheart/kid-fagkveld-2021",
+  "name": "@coderbyheart/nordic-student-workshop",
   "version": "0.0.0-development",
   "description": "Nordic Event: KID Fagkveld 2021",
   "scripts": {
@@ -11,26 +11,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coderbyheart/kid-fagkveld-2021.git"
+    "url": "git+https://github.com/coderbyheart/nordic-student-workshop.git"
   },
   "keywords": [],
   "author": "Markus Tacker <Markus.Tacker@NordicSemi.no>",
   "license": "CC-BY-NC-SA-4.0",
   "bugs": {
-    "url": "https://github.com/coderbyheart/kid-fagkveld-2021/issues"
+    "url": "https://github.com/coderbyheart/nordic-student-workshop/issues"
   },
-  "homepage": "https://github.com/coderbyheart/kid-fagkveld-2021#readme",
+  "homepage": "https://github.com/coderbyheart/nordic-student-workshop#readme",
   "devDependencies": {
-    "@nordicsemiconductor/asset-tracker-cloud-code-style": "9.1.0",
-    "husky": "7.0.2",
-    "lint-staged": "11.1.2",
-    "live-server": "^1.2.1",
-    "prettier": "2.4.1"
+    "@nordicsemiconductor/asset-tracker-cloud-code-style": "11.0.42",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.7",
+    "live-server": "1.2.1",
+    "prettier": "2.6.0"
   },
   "lint-staged": {
     "*.{yml,md,js,json}": [
       "prettier --write --config .prettierrc.js"
     ]
-  },
-  "dependencies": {}
+  }
 }
